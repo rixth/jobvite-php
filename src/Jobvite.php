@@ -24,7 +24,6 @@ class Jobvite {
    * Create a new instance
    *
    * @param string $companyId The ID of the company at Jobvite
-   * @author Thomas Rix
    */
   public function __construct($companyId) {
     if (!$companyId) {
